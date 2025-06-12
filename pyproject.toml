@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "molrl"
+version = "0.1.0"
+description = "Targeted Molecular Generation With Latent Reinforcement Learning"
+authors = [
+    { name="Ragy Haddad", email="rhaddad@cellarity.com" }
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "torch",
+    "pandas",
+    "lightning",
+    "rdkit",
+    "datamol",
+    "seaborn",
+    "matplotlib",
+    "wandb"
+]
+
+[tool.hatch.version]
+path = "molrl/__init__.py"
