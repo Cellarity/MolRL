@@ -1,0 +1,3 @@
+molrl/model_checkpoints/*.ckpt
+notebooks/*.ipynb_checkpoints
+molrl/__pycache__/*
